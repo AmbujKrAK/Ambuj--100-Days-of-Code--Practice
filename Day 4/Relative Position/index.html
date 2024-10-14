@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Relative positioned element is an element whose computed position value is according to the document's normal flow. Then it offsets relative to itself based on the values of top, right, bottom, and left.</h1>
+    <div id="box">Box Relative </div>
+    <p>The offset does not affect the position of any other elements. Hence, the space given for the element in the page layout is the same as if the position were static.</p>
+    <p>This value also creates a new stacking context when the value of z-index is not set to auto. If we have table-*-group, table-cell, and table-caption elements, then its effect on these elements remains undefined.</p>
+
+    <P>The top and bottom properties specify the vertical offset from its normal position, while the left and right properties specify the horizontal offset. The offset is purely a visual effect and doesn't affect the size or position of any other box, except if there is a scrollable overflow area of its ancestors.</P>
+</body>
+</html>
+
+
+
+                                         <!-- <-******* Another Example ********-> -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relative Positioning Example</title>
+  <style>
+    .container {
+      width: 400px;
+      height: 200px;
+      border: 1px solid black;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: relative;
+      top: 50px;
+      left: 50px;
+    }
+
+    .paragraph {
+      position: relative;
+      top: 100px; /* Adjust this value as needed */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+    <p class="paragraph">This is a paragraph after the container.</p>
+  </div>
+</body>
+</html> -->

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+  </head>
+  <body>
+            <!-- Understanding how position:relative work  -->
+            <h2>Tips for production level code</h2>
+            <p><ul>
+                <li>The first thing to understand here is that we should ensure that the elements positioned with an absolute or fixed value do not obscure other content when the page is zoomed in to increase the text size.</li>
+                <li>If we have scrolling elements containing fixed or sticky content, then it can cause performance and accessibility issues. For example, as a user scrolls, the browser must repaint the sticky or fixed content in a new location.   </li>
+            </ul></p>
+
+    <div id="relative">
+        <div class="box" id="one">One</div>
+        <div class="box" id="two">Two</div>
+        <div class="box" id="three">Three</div>
+        <div class="box" id="four">Four</div>  
+    </div>
+    <!-- Here the P element gets overshadowed with the above box, to fix it I can give postion relative to the p = "info" and add top to 20px or so to fix it it will not overlap even after zoom. -->
+    <!-- Important - Line break will also work but there might be some issues with spacing depending on the device it is used-->
+     <!-- Simple solition - Just give margin-top to the <p> element and it will work and will not effect any other elements. -->
+    
+    <p class="info">Depending on your device hardware, the browser may not be able to manage the repaints of elements at 60 fps, causing accessibility concerns for people with sensitivities. To solve this, we can add will-change: transform to the positioned elements.</p>
+
+    <p>testing if it merges with another line.</p>
+    <div>testing</div>
+
+    
+    
+    <div id="animated-element">This element will be animated</div>
+  </body>
+</html>

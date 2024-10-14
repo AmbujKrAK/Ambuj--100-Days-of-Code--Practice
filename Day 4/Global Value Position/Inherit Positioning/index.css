@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  border: 5px solid blueviolet;
+}
+
+.child {
+  position: inherit;
+  top: 5px;
+  left: 10px;
+  border: 2px solid red;
+}

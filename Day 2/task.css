@@ -1,0 +1,54 @@
+#page2 {
+  margin: auto;
+  /* width: 90%; */
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  /* font-weight: bolder; */
+  margin: auto;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  padding: 8px;
+  margin: 5px;
+}
+
+h2, p {
+  color: rgb(124, 39, 39);
+  padding: 10px
+}
+
+.btn {
+  background-color: rgb(211, 131, 52);
+  padding: 15px;
+  border-radius: 4px;
+  color: white;
+  margin: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(23, 37, 144);
+}
+
+.btn:active {
+    background-color: rgb(144, 76, 23);
+}
+
+#sec {
+  background-color: rgb(224, 167, 87);
+  width: 30%;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+  /* text-decoration: brown; */
+}
+
+#box {
+  margin: auto;
+  width: 100%;
+  margin-left: 33%;
+}

@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Absolute positioned element is removed from the normal document flow, and
+      no space is created for the element in the page layout.
+    </h1>
+    <div>
+      <div class="two">
+        Two
+        <p>
+          We should also note that this value created a new stacking context
+          when the value of z-index is not set to auto. The margins of
+          absolutely positioned boxes do not collapse with other margins. If the
+          element has margins, they are added to the offset, and the element
+          establishes a new block formatting context for its contents.
+        </p>
+      </div>
+      <div class="one">
+        One
+        <p>
+          It is positioned relative to its closest positioned ancestor, if there
+          is any. Else, it is placed relative to the initial containing block.
+          The final position of an element absolutely positioned is determined
+          by the top, right, bottom, and left values.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+Another Example -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Absolute Positioning Example</title>
+    <style>
+      .container {
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      Relative
+      <div class="box">Absolut</div>
+    </div>
+
+    <p>
+      Even after moving a relative postioned however It still holds it's orginal
+      position.
+    </p>
+    <p>
+      Absolutely positioned elements do not affect the layout of other elements.
+      They can overlap or be overlapped by other elements.
+    </p>
+
+    <h2>In summary:</h2>
+    <li><strong>Relative positioning</strong> is useful for creating subtle adjustments to an element's position within its normal flow</li>
+    <li><strong>Absolute positioning</strong> is ideal for creating elements that are positioned precisely relative to a specific container or the entire page, and that do not affect the layout of other elements.</li>
+    <p><strong>Note: </strong>Most of the time, absolutely positioned elements with height and width properties set up to auto are sized to fit their contents. However, non-replaced and absolutely positioned elements can fill the available vertical space when specified with both top and bottom properties leaving height.</p>
+  </body>
+</html>

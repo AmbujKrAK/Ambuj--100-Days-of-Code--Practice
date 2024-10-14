@@ -1,0 +1,53 @@
+#mainBody {
+  background-color: bisque;
+  text-align: center;
+  margin: 15% auto auto auto;
+  width: 80%;
+  /* margin: auto; */
+}
+
+.cocoImage {
+  /* margin: auto; */
+  margin-top: -30%;
+}
+
+.coco-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 65%;
+  border: 5px solid black;
+  /* padding: 1%; */
+  /* box-shadow: 2px 2px; */
+  margin-top: auto;
+}
+
+#mainbox {
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 5%;
+  background-color: hsl(11deg 80.49% 62.01%);
+  /* box-shadow: 5px 5px; */
+  box-shadow: 1px 2px 8px gray;
+  margin: auto;
+  width: 65%;
+}
+
+.day {
+  color: hsl(11deg 61.22% 24.61%);
+}
+
+#text {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(61 58 58);
+}
+
+#pera {
+  padding: 2rem;
+  font-size: xx-large;
+}
+
+#max {
+  padding: 2%;
+}

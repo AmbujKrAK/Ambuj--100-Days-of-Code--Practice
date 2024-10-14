@@ -1,0 +1,1 @@
+'Global' means that these values can appear in other CSS properties like color, background, etc., and is not local to the position property.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        This is a fixed header.
+      </header>
+    
+      <div class="content">
+        When you scroll the page, the header will remain fixed at the top of the viewport, while the content will scroll below it. This is a common technique used for creating navigation bars or sticky headers that stay visible while the user scrolls.
+      </div>
+      <p><strong>Note:</strong>If no ancestor established one, the fixed positioning containing the block is:</p>
+
+      <li><strong>In continuous media:</strong> this is about the viewport. The fixed boxes do not move when the document is scrolled. In this respect, they are similar to another CSS property; background-attachment: fixed.</li>
+      <li><strong>In paged media:</strong>this is about the page area of each page. The fixed boxes are thus replicated on every page, and they are fixed with respect to the page box only and are not affected by being seen through a viewport. Therefore, as a result, parts of fixed-positioned boxes that extend outside the initial containing block or page area cannot be scrolled and will not print.</li>
+
+      <p>For these fixed positioned elements, using large or negative values can quickly move elements outside the viewport and make the contents unreachable through scrolling or other means.</p>
+
+      <p><strong>One privacy and security consideration</strong> we may need to consider is that position: fixed can allow a page to emulate modal dialogs. This could trick a user into thinking they are interacting with the user agent and entering sensitive information that their page can capture. For this, we must ensure that their native dialogs are positioned in ways that the page cannot emulate.</p>
+</body>
+</html>

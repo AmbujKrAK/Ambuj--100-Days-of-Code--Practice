@@ -1,0 +1,7 @@
+This module has all the basic details and how to get started and start your coding journey.
+
+This course has all the details of how the course will move forwards with - 
+ 
+    HTML
+    CSS
+    JavaScript
