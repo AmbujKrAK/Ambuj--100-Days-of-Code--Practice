@@ -1,76 +1,74 @@
-
-body{
-    width: 48%;
-    margin: auto;
-    text-align: center;
-    background-color: #fcd6f5;
-    /* padding: 35px; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+  width: 48%;
+  margin: auto;
+  text-align: center;
+  background-color: #fcd6f5;
+  /* padding: 35px; */
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* #box h2 {
     font-weight: bold;
 } */
 
-img{
-    /* height: 135px; */
-    width: 250px;
+img {
+  /* height: 135px; */
+  width: 250px;
 }
 
-#container{
-    background-color: rgb(83, 66, 191);
-    border-radius: 8px;
-    color: white;
-    text-align: left;
-    padding: 15px;
+#container {
+  background-color: rgb(83, 66, 191);
+  border-radius: 8px;
+  color: white;
+  text-align: left;
+  padding: 15px;
 }
 
-li{
-    color: rgb(245, 206, 158);
-    padding: 5px;
-    border-left: 5px solid burlywood;
-    margin: 8px auto;
-    list-style-type: none;
+li {
+  color: rgb(245, 206, 158);
+  padding: 5px;
+  border-left: 5px solid burlywood;
+  margin: 8px auto;
+  list-style-type: none;
 }
 
 #head {
-    padding: 35px;
+  padding: 35px;
 }
 
 #head h1 {
-    color: rgb(61, 96, 201);
+  color: rgb(61, 96, 201);
 }
 
-
 .MDN {
-    background-color: rgb(229, 198, 160);
-    color: black;
-    border-radius: 4px;
-    font-weight: 500;
+  background-color: rgb(229, 198, 160);
+  color: black;
+  border-radius: 4px;
+  font-weight: 500;
 }
 
 .neg {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-a:hover, a:active {
-    background-color: rgb(236, 170, 28);
+a:hover,
+a:active {
+  background-color: rgb(236, 170, 28);
 }
 
 #foot {
-    padding: 10px;
-    margin: 5px;
+  padding: 10px;
+  margin: 5px;
 }
 
-
-.link{
-    background-color: rgb(250, 188, 55);
-    padding: 5px;
-    border-radius: 4px;
-    color: black;
+.link {
+  background-color: rgb(250, 188, 55);
+  padding: 5px;
+  border-radius: 4px;
+  color: black;
 }
