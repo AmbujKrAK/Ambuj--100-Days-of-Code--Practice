@@ -40,6 +40,13 @@
 .action a {
   font-size: large;
   font-weight: bold;
+  color: rgba(22,211,228);
+}
+
+.action a:hover{
+  background-color: rgb(185, 238, 244);
+  border-radius: 8px;
+  padding: 5px;
 }
 
 #card li {
@@ -100,8 +107,13 @@
   margin: 20px;
 }
 .single-action a {
-  /* margin: 5px; */
-  /* padding: 5px; */
   font-size: large;
   font-weight: bold;
+  color: rgba(22,211,228);
+}
+
+.single-action :hover{
+  background-color: rgb(185, 238, 244);
+  border-radius: 8px;
+  padding: 5px;
 }
