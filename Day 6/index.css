@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  /* width: 99%; */
+  list-style: none;
+  text-transform: uppercase;
+  /* background-color: black; */
+}
+
+html{
+  background: linear-gradient(30deg, rgba(77,77,77), rgba(58,58,58));
+}
+
+#container {
+  width: 100%;
+  margin: 0px;
+  background-image: url("./resources/ocean.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+body {
+  /* background-position: 0% 0%; */
+  /* background-size: width, height */
+  /* background-size: 100% 500px; */
+  margin: auto;
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+}
+
+#page-logo {
+  margin: 0px;
+}
+
+#page-logo a {
+  padding: 10px;
+  font-family: Oleo Script, sans-serif;
+  color: rgb(247, 247, 34);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+}
+
+header {
+  /* width: fit-content; */
+  background-color: rgba(51, 47, 47, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* position: sticky; */
+  top: 0px;
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* margin: 0px; */
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 35%;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+#nav a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: large;
+  text-shadow: 1px 1px 2px rgb(128, 128, 128, 0.2);
+  padding: 10px;
+}
+
+#nav a:hover {
+  background-color: black;
+  color: rgb(229, 255, 0);
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+
+#hovr {
+  /* background-color includes the opacity option  */
+  /* margin-top: 8%; */
+  /* opacity: 0.8; */
+  width: 50%;
+  background-color: rgba(51, 47, 47, 0.8);
+  font-size: larger;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  margin-bottom: 50px;
+  top: 130px;
+  font-family: "Raleway", sans-serif;
+}
+
+#hovr h1,
+p {
+  margin: 10px;
+  padding: 10px;
+  opacity: 1;
+  /* box-sizing: border-box; */
+}
+
+#hovr h1 {
+  font-size: 45px;
+}
+
+#hovr p a {
+  padding: 10px;
+  background-color: rgb(223, 194, 75);
+  border-radius: 8px;
+  color: rgb(55 47 21);
+  font-weight: 600;
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+}
+
+#hovr p a:hover {
+  background-color: rgb(255, 204, 0);
+  color: rgb(0, 0, 0);
+  box-shadow: 8px 8px 8px rgba(68, 67, 67);
+  padding: 12px;
+  border: 2px solid black;
+}
+
+#highlight {
+  /* padding: 15px; */
+  /* display: flex; */
+  margin-top: 150px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(140, 207, 229),
+    rgb(63, 153, 209)
+  );
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#highlight div {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#destinations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.destination {
+  margin: 0px;
+}
+
+.destination a p:hover {
+  font-size: large;
+  font-weight: bold;
+}
+
+.destination img {
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(77, 77, 77);
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  /* display: flex; */
+  background-color: rgb(55, 54, 54);
+  padding: 20px;
+  margin: -10px;
+  width: 100%;
+  margin: -15px 0px 0px 0px;
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+}
+
+#social a img {
+  width: 100%;
+}

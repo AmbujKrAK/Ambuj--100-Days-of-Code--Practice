@@ -1,0 +1,55 @@
+
+#card img{
+    width: 300px;
+    height: 280px;
+    /* width: 100%; */
+    object-fit: cover;
+    margin: 0px;
+    /* border-radius: 8px;/ */
+}
+
+main{
+    /* margin-bottom: 20px; */
+    background: linear-gradient(30deg, rgba(77,77,77), rgba(58,58,58));
+    /*  */
+    padding: 10px;
+   margin: 0px 0px 15px 0px;
+}
+
+#card {
+    width: 100%;
+    /* border: 2px solid blue; */
+    padding: 0px;
+    margin: 10px;
+    border-radius: 6px;
+    /* width: 50%; */
+    /* border: 2px solid red; */
+}
+
+.details h2,p{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}  
+
+.action a {
+    /* margin: 5px; */
+    /* padding: 5px; */
+    font-size: large;
+    font-weight: bold;
+}
+
+#card li{
+    display: flex; 
+    background-color: aliceblue;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    /* flex-direction: row; */
+    /* border: 2px solid blue; */
+}
+
+
+.details{
+    padding: 0px 0px 0px 0px;
+} 
+
