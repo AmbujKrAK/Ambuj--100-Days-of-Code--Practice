@@ -1,0 +1,23 @@
+
+.container {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.element-1 {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.element-2 {
+    width: 50%;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.element-3 {
+    width: 100%;
+    background-color: #d0d0d0;
+    padding: 10px;
+}
